@@ -11,7 +11,7 @@ pipeline {
 
         stage("Checkout source code from Github") {
             steps {
-                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/dkalmode27/Launchtemplate.git'
+                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/dkalmode27/kubernetesinstances.git'
             }
         }
 
