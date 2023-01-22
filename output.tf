@@ -19,6 +19,8 @@ output "kubernetesnode1_private_ip" {
   value = aws_instance.kubernetesinstance["kubernetesnode1"].private_ip
 }
 
+/*
+
 output "kubernetesnode2_public_ip" {
   description = "kubernetes node2 public ip address"
   value = aws_instance.kubernetesinstance["kubernetesnode2"].public_ip
@@ -28,3 +30,5 @@ output "kubernetesnode2_private_ip" {
   description = "kubernetes node2 private ip address"
   value = aws_instance.kubernetesinstance["kubernetesnode2"].public_ip
 }
+
+*/
